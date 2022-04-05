@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.VMT.runners.SignupRunner" time="51.324" tests="3" errors="0" skipped="0" failures="3">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.VMT.runners.SignupRunner" time="53.991" tests="3" errors="0" skipped="0" failures="2">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="GB"/>
     <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/17.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/voicemailtel/IdeaProjects/VMT/target/surefire/surefirebooter16692542808174717614.jar /Users/voicemailtel/IdeaProjects/VMT/target/surefire 2022-04-05T10-12-27_870-jvmRun1 surefire18171748434971224704tmp surefire_09564128141917497684tmp"/>
+    <property name="sun.java.command" value="/Users/voicemailtel/IdeaProjects/VMT/target/surefire/surefirebooter2630709418333742516.jar /Users/voicemailtel/IdeaProjects/VMT/target/surefire 2022-04-05T13-12-52_963-jvmRun1 surefire11515144356018819962tmp surefire_014290426122089984176tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="test" value="*Runner"/>
@@ -29,7 +29,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/Users/voicemailtel/IdeaProjects/VMT/target/surefire/surefirebooter16692542808174717614.jar"/>
+    <property name="surefire.real.class.path" value="/Users/voicemailtel/IdeaProjects/VMT/target/surefire/surefirebooter2630709418333742516.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="17.0.2+0"/>
@@ -38,7 +38,7 @@
     <property name="os.version" value="10.15.7"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="browser" value="safari"/>
+    <property name="browser" value="firefox"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
     <property name="java.vendor.version" value="Homebrew"/>
     <property name="localRepository" value="/Users/voicemailtel/.m2/repository"/>
@@ -57,7 +57,7 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="Signup Successfully #1" classname="Signup fill" time="19.785">
+  <testcase name="Signup Successfully #1" classname="Signup fill" time="23.908">
     <failure message="Signup failed&#10;Expected: a string containing &quot;confirmation&quot;&#10;     but: was &quot;&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
 Signup failed
 Expected: a string containing "confirmation"
@@ -66,28 +66,47 @@ Expected: a string containing "confirmation"
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Apr 05, 2022 10:12:34 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+1649153577010	geckodriver	INFO	Listening on 127.0.0.1:61496
+1649153577733	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "64224" "-foreground" "-no-remote" "-profile" "/var/folders/12/3xdc72410x54tl3r8c38c0zc0000gq/T/rust_mozprofile17PZgu"
+1649153579430	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/12/3xdc72410x54tl3r8c38c0zc0000gq/T/rust_mozprofile17PZgu/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:64224/devtools/browser/9b0333eb-a94a-40cc-af73-b77041680bca
+1649153585983	Marionette	INFO	Listening on port 56282
+1649153586090	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Apr 05, 2022 1:13:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://meet.voicemailtel.com"
+1649153598287	Marionette	INFO	Stopped listening on port 56282
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
 ]]></system-err>
   </testcase>
-  <testcase name="Signup Successfully #2" classname="Signup fill" time="13.714">
+  <testcase name="Signup Successfully #2" classname="Signup fill" time="14.577">
     <failure message="Signup failed&#10;Expected: a string containing &quot;confirmation&quot;&#10;     but: was &quot;&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
 Signup failed
 Expected: a string containing "confirmation"
      but: was ""
 </failure>
-    <system-err><![CDATA[Apr 05, 2022 10:12:50 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+    <system-err><![CDATA[1649153599355	geckodriver	INFO	Listening on 127.0.0.1:49277
+1649153599425	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "60840" "-foreground" "-no-remote" "-profile" "/var/folders/12/3xdc72410x54tl3r8c38c0zc0000gq/T/rust_mozprofileudE6N3"
+1649153600305	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/12/3xdc72410x54tl3r8c38c0zc0000gq/T/rust_mozprofileudE6N3/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:60840/devtools/browser/3ca83e95-c291-47a0-9f46-cfd7b446a824
+1649153602473	Marionette	INFO	Listening on port 56556
+1649153602594	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Apr 05, 2022 1:13:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://meet.voicemailtel.com"
+1649153612978	Marionette	INFO	Stopped listening on port 56556
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
 ]]></system-err>
   </testcase>
-  <testcase name="Signup Successfully #3" classname="Signup fill" time="16.549">
-    <failure message="Signup failed&#10;Expected: a string containing &quot;confirmation&quot;&#10;     but: was &quot;&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
-Signup failed
-Expected: a string containing "confirmation"
-     but: was ""
-</failure>
-    <system-err><![CDATA[Apr 05, 2022 10:13:04 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
+  <testcase name="Signup Successfully #3" classname="Signup fill" time="14.21"/>
 </testsuite>
