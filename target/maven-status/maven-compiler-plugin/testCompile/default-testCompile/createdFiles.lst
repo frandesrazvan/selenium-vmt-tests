@@ -1,4 +1,4 @@
-org/VMT/stepdefinitions/LandingPageSteps.class
-org/VMT/TestBase.class
-org/VMT/Hooks.class
-org/VMT/runners/SignupRunner.class
+org\VMT\Hooks.class
+org\VMT\TestBase.class
+org\VMT\runners\SignupRunner.class
+org\VMT\stepdefinitions\LandingPageSteps.class

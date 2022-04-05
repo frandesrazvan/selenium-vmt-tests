@@ -1,4 +1,4 @@
-org/VMT/DriverFactory.class
-org/VMT/webviews/LandingPage.class
-org/VMT/webviews/ConfirmMailPage.class
-org/VMT/AppConfig.class
+org\VMT\AppConfig.class
+org\VMT\webviews\LandingPage.class
+org\VMT\DriverFactory.class
+org\VMT\webviews\ConfirmMailPage.class
