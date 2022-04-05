@@ -1,20 +1,20 @@
 -------------------------------------------------------------------------------
 Test set: org.VMT.runners.SignupRunner
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 49.81 s <<< FAILURE! - in org.VMT.runners.SignupRunner
-Signup Successfully #1(Signup fill)  Time elapsed: 24.644 s  <<< FAILURE!
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 51.324 s <<< FAILURE! - in org.VMT.runners.SignupRunner
+Signup Successfully #1(Signup fill)  Time elapsed: 19.785 s  <<< FAILURE!
 java.lang.AssertionError: 
 Signup failed
 Expected: a string containing "confirmation"
      but: was ""
 
-Signup Successfully #2(Signup fill)  Time elapsed: 11.887 s  <<< FAILURE!
+Signup Successfully #2(Signup fill)  Time elapsed: 13.714 s  <<< FAILURE!
 java.lang.AssertionError: 
 Signup failed
 Expected: a string containing "confirmation"
      but: was ""
 
-Signup Successfully #3(Signup fill)  Time elapsed: 11.631 s  <<< FAILURE!
+Signup Successfully #3(Signup fill)  Time elapsed: 16.549 s  <<< FAILURE!
 java.lang.AssertionError: 
 Signup failed
 Expected: a string containing "confirmation"

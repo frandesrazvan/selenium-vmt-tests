@@ -16,4 +16,4 @@ Feature: Signup fill
       | firstName | lastName | emailAddress            | password     |
       | cornel    | dorel    | corneldorel@gmail.com   | Password123! |
       | mihai     | ionut    | mihaiionut@gmail.com    | eu123        |
-      | sorin     | florin   | blerinsulerin@gmail.com | Password123! |
+      | sorin     | florin   | dorinelflorinel@gmail.com | Password123! |
