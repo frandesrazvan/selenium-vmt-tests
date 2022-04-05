@@ -13,7 +13,5 @@ Feature: Signup fill
     Then I am on the confirmation link page
 
     Examples:
-      | firstName | lastName | emailAddress            | password     |
-      | cornel    | dorel    | corneldorel@gmail.com   | Password123! |
-      | mihai     | ionut    | mihaiionut@gmail.com    | eu123        |
-      | sorin     | florin   | dorinelflorinel@gmail.com | Password123! |
+      | firstName | lastName | emailAddress              | password     |
+      | cornel    | dorel    | cornel123dorel@gmail.com     | Password123! |

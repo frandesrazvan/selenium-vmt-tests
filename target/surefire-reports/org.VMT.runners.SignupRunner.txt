@@ -1,16 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: org.VMT.runners.SignupRunner
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 53.991 s <<< FAILURE! - in org.VMT.runners.SignupRunner
-Signup Successfully #1(Signup fill)  Time elapsed: 23.908 s  <<< FAILURE!
-java.lang.AssertionError: 
-Signup failed
-Expected: a string containing "confirmation"
-     but: was ""
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 1.64 s <<< FAILURE! - in org.VMT.runners.SignupRunner
+Signup Successfully(Signup fill)  Time elapsed: 0.373 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable must exist: /src/main/resources/drivers/geckodriver
 
-Signup Successfully #2(Signup fill)  Time elapsed: 14.577 s  <<< FAILURE!
-java.lang.AssertionError: 
-Signup failed
-Expected: a string containing "confirmation"
-     but: was ""
+Signup Successfully(Signup fill)  Time elapsed: 0.374 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because the return value of "org.VMT.DriverFactory.getDriver()" is null
 
