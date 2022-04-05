@@ -14,4 +14,4 @@ Feature: Signup fill
 
     Examples:
       | firstName | lastName | emailAddress              | password     |
-      | cornel    | dorel    | cornel12234423dorel@gmail.com     | Password123! |
+      | cornel    | dorel    | cornel1223324423dorel@gmail.com     | Password123! |

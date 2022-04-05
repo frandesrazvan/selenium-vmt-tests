@@ -20,7 +20,7 @@ public class LandingPage {
     @FindBy(id = "mat-input-7")
     private WebElement confirmPassword;
 
-    @FindBy(className = "mat-checkbox-inner-container")
+    @FindBy(id = "mat-checkbox-1-input")
     private WebElement termsAndConditions;
 
     public WebElement getFirstName() {
