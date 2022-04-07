@@ -20,8 +20,11 @@ public class LandingPage {
     @FindBy(id = "mat-input-7")
     private WebElement confirmPassword;
 
-    @FindBy(id = "mat-checkbox-1-input")
+    @FindBy(className = "mat-checkbox-inner-container")
     private WebElement termsAndConditions;
+
+    @FindBy(linkText = "Terms and Conditions")
+    private WebElement termsAndConditionsLink;
 
     public WebElement getFirstName() {
         return firstName;
@@ -45,5 +48,9 @@ public class LandingPage {
 
     public WebElement getTermsAndConditions() {
         return termsAndConditions;
+    }
+
+    public WebElement getTermsAndConditionsLink() {
+        return termsAndConditionsLink;
     }
 }
