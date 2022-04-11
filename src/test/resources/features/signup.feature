@@ -16,7 +16,7 @@ Feature: Signup
       | firstName | lastName | password     |
       | cornel    | dorel    | Password123! |
 
-  Scenario: Link opens in a separate tab
+  Scenario: When i click Terms and Conditions link it should open in a new tab
     Given I open the landing page
     And I click on Terms and Conditions link
     And I wait 5 seconds
