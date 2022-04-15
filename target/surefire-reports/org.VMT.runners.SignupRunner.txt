@@ -1,28 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: org.VMT.runners.SignupRunner
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 52.563 s <<< FAILURE! - in org.VMT.runners.SignupRunner
-Signup Successfully #1(Signup)  Time elapsed: 18.594 s  <<< FAILURE!
-java.lang.AssertionError: 
-Signup failed
-Expected: a string containing "confirmation"
-     but: was ""
-
-Signup Successfully #2(Signup)  Time elapsed: 13.063 s  <<< FAILURE!
-java.lang.AssertionError: 
-Signup failed
-Expected: a string containing "confirmation"
-     but: was ""
-
-Signup Successfully #3(Signup)  Time elapsed: 12.953 s  <<< FAILURE!
-java.lang.AssertionError: 
-Signup failed
-Expected: a string containing "confirmation"
-     but: was ""
-
-Link opens in a separate tab(Signup)  Time elapsed: 6.797 s  <<< FAILURE!
-java.lang.AssertionError: 
-You are were redirected on the wrong website
-Expected: is "https://www.voicemailtel.com/voicemailtel-meeting-services-terms-of-service/"
-     but: was "about:blank"
-
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 87.297 s - in org.VMT.runners.SignupRunner

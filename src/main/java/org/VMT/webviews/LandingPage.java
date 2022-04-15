@@ -26,6 +26,9 @@ public class LandingPage {
     @FindBy(linkText = "Terms and Conditions")
     private WebElement termsAndConditionsLink;
 
+    @FindBy(xpath = "//a[@routerlink='/signin']")
+    private WebElement signIn;
+
     public WebElement getFirstName() {
         return firstName;
     }
@@ -52,5 +55,9 @@ public class LandingPage {
 
     public WebElement getTermsAndConditionsLink() {
         return termsAndConditionsLink;
+    }
+
+    public WebElement getSignIn() {
+        return signIn;
     }
 }

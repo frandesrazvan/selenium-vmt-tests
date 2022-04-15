@@ -109,4 +109,11 @@ public class LandingPageSteps extends TestBase {
                 currentUrl,
                 is(expectedLink));
     }
+
+    @And("I click on Sign In then wait 2 seconds")
+    public void iClickOnSignIn() throws InterruptedException {
+        landingPage.getSignIn().click();
+        TimeUnit.SECONDS.sleep(2);
+
+    }
 }
