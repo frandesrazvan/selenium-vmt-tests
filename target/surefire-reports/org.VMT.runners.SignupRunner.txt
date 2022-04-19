@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: org.VMT.runners.SignupRunner
 -------------------------------------------------------------------------------
-Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 87.297 s - in org.VMT.runners.SignupRunner
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 115.218 s - in org.VMT.runners.SignupRunner

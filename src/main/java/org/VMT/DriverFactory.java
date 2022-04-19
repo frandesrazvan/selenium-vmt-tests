@@ -2,6 +2,7 @@ package org.VMT;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
 
@@ -29,10 +30,10 @@ public class DriverFactory {
 
                 break;
 
-            case "safari":
-                System.setProperty("webdriver.safari.driver", AppConfig.getSafariDriverPath());
+            case "edge":
+                System.setProperty("webdriver.edge.driver", AppConfig.getEdgeDriverPath());
 
-                driver = new SafariDriver();
+                driver = new EdgeDriver();
 
                 break;
 

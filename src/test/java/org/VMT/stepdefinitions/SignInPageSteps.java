@@ -32,4 +32,9 @@ public class SignInPageSteps extends TestBase {
                 signInPage.getEmailAddressErrorMessage().getText(),
                 is("invalid"));
     }
+
+    @And("I click on forgot password")
+    public void iClickOnForgotPassword() {
+        signInPage.getForgotPassword().click();
+    }
 }

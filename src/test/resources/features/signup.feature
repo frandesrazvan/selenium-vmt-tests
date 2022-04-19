@@ -1,20 +1,20 @@
 Feature: Signup
 
-#  Scenario Outline: Signup Successfully
-#    Given I open the landing page
-#    And I type my "<firstName>" in the first name input
-#    And I type my "<lastName>" in the last name input
-#    And I type my email address in the email address input
-#    And I type my "<password>" in the password input
-#    And I type my "<password>" again in the confirm password input
-#    And I accept terms and conditions
-#    And I press Enter
-#    And I wait 5 seconds
-#    Then I am on the confirmation link page
-#
-#    Examples:
-#      | firstName | lastName | password     |
-#      | cornel    | dorel    | Password123! |
+  Scenario Outline: Signup Successfully
+    Given I open the landing page
+    And I type my "<firstName>" in the first name input
+    And I type my "<lastName>" in the last name input
+    And I type my email address in the email address input
+    And I type my "<password>" in the password input
+    And I type my "<password>" again in the confirm password input
+    And I accept terms and conditions
+    And I press Enter
+    And I wait 5 seconds
+    Then I am on the confirmation link page
+
+    Examples:
+      | firstName | lastName | password     |
+      | cornel    | dorel    | Password123! |
 
   Scenario: VMT-W--05 - Terms and Conditions
     Given I open the landing page
@@ -38,5 +38,30 @@ Feature: Signup
       | @.                   |
       | @gmail.com@gmail.com |
       | a@a.c                |
+
+  Scenario Outline: VMT-W--08 - Sign In - Forgot Password
+    Given I open the landing page
+    And I click on Sign In then wait 2 seconds
+    And I click on forgot password
+    And I wait "<1 second>"
+    And I fill my "<email>"
+    And I click the Continue button
+    And I wait "<5 seconds>"
+    Then I see a pop-up saying Success
+    And I wait "<5 seconds>"
+    Then I go to my email
+    And I type my "<email>" then press Enter
+    And I wait "<2 seconds>"
+    And I type my password then press Enter
+    And I wait "<5 seconds>"
+    Then I click on the mail
+    And I wait "<5 seconds>"
+    And I click on Reset password link
+    And I wait "<3 seconds>"
+    Then I should be on the reset password page
+
+    Examples:
+      | email                            | 1 second | 2 seconds | 3 seconds | 4 seconds | 5 seconds | 6 seconds | 7 seconds |
+      | corneldorelcorneldorel@gmail.com | 1        | 2         | 3         | 4         | 5         | 6         | 7         |
 
 

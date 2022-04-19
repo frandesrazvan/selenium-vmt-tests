@@ -1,5 +1,7 @@
 org\VMT\AppConfig.class
 org\VMT\webviews\LandingPage.class
+org\VMT\webviews\ForgotPasswordPage.class
 org\VMT\DriverFactory.class
+org\VMT\webviews\EmailInboxPage.class
 org\VMT\webviews\SignInPage.class
 org\VMT\webviews\ConfirmMailPage.class
