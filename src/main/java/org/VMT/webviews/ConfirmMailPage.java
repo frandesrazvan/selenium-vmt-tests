@@ -6,9 +6,16 @@ import org.openqa.selenium.support.FindBy;
 public class ConfirmMailPage {
 
     @FindBy(css = "div.ng-star-inserted")
-    private WebElement signUpButton;
+    private WebElement signUpMessage;
 
-    public WebElement getSignUpButton() {
-        return signUpButton;
+    @FindBy(xpath = "//span[contains(text(), 'Sign in')]")
+    private WebElement signInButton;
+
+    public WebElement getSignUpMessage() {
+        return signUpMessage;
+    }
+
+    public WebElement getSignInButton() {
+        return signInButton;
     }
 }

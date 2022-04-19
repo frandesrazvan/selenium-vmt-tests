@@ -84,7 +84,7 @@ public class LandingPageSteps extends TestBase {
 
     @Then("I am on the confirmation link page")
     public void iAmOnTheConfirmationLinkPage() {
-        String confirmMailPageText = confirmMailPage.getSignUpButton().getText();
+        String confirmMailPageText = confirmMailPage.getSignUpMessage().getText();
 
         assertThat("Signup failed",
                 confirmMailPageText,

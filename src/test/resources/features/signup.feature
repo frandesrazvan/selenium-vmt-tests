@@ -1,6 +1,6 @@
 Feature: Signup
 
-  Scenario Outline: Signup Successfully
+  Scenario Outline: VMT-W--01 - Landing page - right side - SignUp
     Given I open the landing page
     And I type my "<firstName>" in the first name input
     And I type my "<lastName>" in the last name input
@@ -11,6 +11,9 @@ Feature: Signup
     And I press Enter
     And I wait 5 seconds
     Then I am on the confirmation link page
+    And I click the Sign in button
+    And I wait two seconds
+    Then I am on the main page again
 
     Examples:
       | firstName | lastName | password     |

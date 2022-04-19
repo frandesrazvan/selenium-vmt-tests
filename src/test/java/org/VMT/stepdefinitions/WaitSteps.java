@@ -12,4 +12,9 @@ public class WaitSteps {
 
         TimeUnit.SECONDS.sleep(sec);
     }
+
+    @And("I wait two seconds")
+    public void iWaitSeconds() throws InterruptedException {
+        TimeUnit.SECONDS.sleep(2);
+    }
 }
