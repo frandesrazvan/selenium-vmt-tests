@@ -14,6 +14,9 @@ public class ForgotPasswordPage {
     @FindBy(css = "div.alert-success-title")
     private WebElement successPopup;
 
+    @FindBy(className = "alert-error-content")
+    private WebElement emailErrorMessage;
+
     public WebElement getEmailAddress() {
         return emailAddress;
     }
@@ -24,5 +27,9 @@ public class ForgotPasswordPage {
 
     public WebElement getSuccessPopup() {
         return successPopup;
+    }
+
+    public WebElement getEmailErrorMessage() {
+        return emailErrorMessage;
     }
 }

@@ -1,6 +1,6 @@
 Feature: Signup
 
-  Scenario Outline: Signup Successfully
+  Scenario Outline: VMT-W--01 - Landing page - right side - SignUp
     Given I open the landing page
     And I type my "<firstName>" in the first name input
     And I type my "<lastName>" in the last name input
@@ -42,7 +42,7 @@ Feature: Signup
       | @gmail.com@gmail.com |
       | a@a.c                |
 
-  Scenario Outline: VMT-W--08 - Sign In - Forgot Password
+  Scenario Outline: VMT-W--08 - Sign In - Forgot Password & VMT-W--09 - Sign In - Reset Password
     Given I open the landing page
     And I click on Sign In then wait 2 seconds
     And I click on forgot password
@@ -66,5 +66,18 @@ Feature: Signup
     Examples:
       | email                            | 1 second | 2 seconds | 3 seconds | 4 seconds | 5 seconds | 6 seconds | 7 seconds |
       | corneldorelcorneldorel@gmail.com | 1        | 2         | 3         | 4         | 5         | 6         | 7         |
+
+  Scenario Outline: VMT-W--10 - Sign In - Forgot Password - not valid mail
+    Given I open the landing page
+    And I click on Sign In then wait 2 seconds
+    And I click on forgot password
+    And I wait 1 second
+    And I type a unregistered valid "<email address>" then press Enter
+    And I wait 3 seconds
+    Then I see an error message
+
+    Examples:
+      | email address                        |
+      | qwertyuiopasdfghjklzxcvbnm@gmail.com |
 
 

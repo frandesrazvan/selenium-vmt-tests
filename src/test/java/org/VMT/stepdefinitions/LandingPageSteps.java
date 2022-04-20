@@ -77,11 +77,6 @@ public class LandingPageSteps extends TestBase {
         landingPage.getFirstName().sendKeys(Keys.ENTER);
     }
 
-    @And("I wait 5 seconds")
-    public void iWaitSeconds() throws InterruptedException {
-        TimeUnit.SECONDS.sleep(5);
-    }
-
     @Then("I am on the confirmation link page")
     public void iAmOnTheConfirmationLinkPage() {
         String confirmMailPageText = confirmMailPage.getSignUpMessage().getText();

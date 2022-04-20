@@ -17,4 +17,9 @@ public class WaitSteps {
     public void iWaitSeconds() throws InterruptedException {
         TimeUnit.SECONDS.sleep(2);
     }
+
+    @And("I wait {int} seconds")
+    public void iWaitSeconds(int seconds) throws InterruptedException {
+        TimeUnit.SECONDS.sleep(seconds);
+    }
 }
