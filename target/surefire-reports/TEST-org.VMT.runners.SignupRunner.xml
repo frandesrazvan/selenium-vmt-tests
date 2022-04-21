@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.VMT.runners.SignupRunner" time="115.218" tests="10" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.VMT.runners.SignupRunner" time="161.765" tests="11" errors="1" skipped="0" failures="1">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_321\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\RAZVAN~1.FRA\AppData\Local\Temp\2\surefire7055618181156763037\surefirebooter3199459116521866983.jar C:\Users\razvan.frandes\AppData\Local\Temp\2\surefire7055618181156763037 2022-04-19T06-22-29_027-jvmRun1 surefire121117089096243494tmp surefire_04796730870330176102tmp"/>
+    <property name="sun.java.command" value="C:\Users\RAZVAN~1.FRA\AppData\Local\Temp\2\surefire235360810114795898\surefirebooter5269149479396406215.jar C:\Users\razvan.frandes\AppData\Local\Temp\2\surefire235360810114795898 2022-04-20T05-00-50_277-jvmRun1 surefire3655848299863500496tmp surefire_04641325337397288785tmp"/>
     <property name="test" value="\*Runner"/>
     <property name="surefire.test.class.path" value="C:\Project\IntellijIdeaProjects\VMT-Tests\target\test-classes;C:\Project\IntellijIdeaProjects\VMT-Tests\target\classes;C:\Users\razvan.frandes\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\razvan.frandes\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\razvan.frandes\.m2\repository\org\seleniumhq\selenium\selenium-java\4.1.2\selenium-java-4.1.2.jar;C:\Users\razvan.frandes\.m2\repository\org\seleniumhq\selenium\selenium-api\4.1.2\selenium-api-4.1.2.jar;C:\Users\razvan.frandes\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.1.2\selenium-chrome-driver-4.1.2.jar;C:\Users\razvan.frandes\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\razvan.frandes\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\razvan.frandes\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\razvan.frandes\.m2\repository\com\google\guava\guava\31.0.1-jre\guava-31.0.1-jre.jar;C:\Users\razvan.frandes\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\razvan.frandes\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\razvan.frandes\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\razvan.frandes\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\razvan.frandes\.m2\repository\com\google\errorprone\error_prone_annotations\2.7.1\error_prone_annotations-2.7.1.jar;C:\Users\razvan.frandes\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\razvan.frandes\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.1.2\selenium-chromium-driver-4.1.2.jar;C:\Users\razvan.frandes\.m2\repository\org\seleniumhq\selenium\selenium-json\4.1.2\selenium-json-4.1.2.jar;C:\Users\razvan.frandes\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.1.2\selenium-devtools-v85-4.1.2.jar;C:\Users\razvan.frandes\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v95\4.1.2\selenium-devtools-v95-4.1.2.jar;C:\Users\razvan.frandes\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v96\4.1.2\selenium-devtools-v96-4.1.2.jar;C:\Users\razvan.frandes\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v97\4.1.2\selenium-devtools-v97-4.1.2.jar;C:\Users\razvan.frandes\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.1.2\selenium-edge-driver-4.1.2.jar;C:\Users\razvan.frandes\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.1.2\selenium-firefox-driver-4.1.2.jar;C:\Users\razvan.frandes\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.1.2\selenium-firefox-xpi-driver-4.1.2.jar;C:\Users\razvan.frandes\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.1.2\selenium-ie-driver-4.1.2.jar;C:\Users\razvan.frandes\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.1.2\selenium-opera-driver-4.1.2.jar;C:\Users\razvan.frandes\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.1.2\selenium-remote-driver-4.1.2.jar;C:\Users\razvan.frandes\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\razvan.frandes\.m2\repository\io\netty\netty-buffer\4.1.73.Final\netty-buffer-4.1.73.Final.jar;C:\Users\razvan.frandes\.m2\repository\io\netty\netty-codec-http\4.1.73.Final\netty-codec-http-4.1.73.Final.jar;C:\Users\razvan.frandes\.m2\repository\io\netty\netty-codec\4.1.73.Final\netty-codec-4.1.73.Final.jar;C:\Users\razvan.frandes\.m2\repository\io\netty\netty-handler\4.1.73.Final\netty-handler-4.1.73.Final.jar;C:\Users\razvan.frandes\.m2\repository\io\netty\netty-tcnative-classes\2.0.46.Final\netty-tcnative-classes-2.0.46.Final.jar;C:\Users\razvan.frandes\.m2\repository\io\netty\netty-common\4.1.73.Final\netty-common-4.1.73.Final.jar;C:\Users\razvan.frandes\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.73.Final\netty-transport-classes-epoll-4.1.73.Final.jar;C:\Users\razvan.frandes\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.73.Final\netty-transport-classes-kqueue-4.1.73.Final.jar;C:\Users\razvan.frandes\.m2\repository\io\netty\netty-transport-native-epoll\4.1.73.Final\netty-transport-native-epoll-4.1.73.Final.jar;C:\Users\razvan.frandes\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.73.Final\netty-transport-native-kqueue-4.1.73.Final.jar;C:\Users\razvan.frandes\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.73.Final\netty-transport-native-unix-common-4.1.73.Final.jar;C:\Users\razvan.frandes\.m2\repository\io\netty\netty-transport\4.1.73.Final\netty-transport-4.1.73.Final.jar;C:\Users\razvan.frandes\.m2\repository\io\netty\netty-resolver\4.1.73.Final\netty-resolver-4.1.73.Final.jar;C:\Users\razvan.frandes\.m2\repository\io\opentelemetry\opentelemetry-api\1.10.1\opentelemetry-api-1.10.1.jar;C:\Users\razvan.frandes\.m2\repository\io\opentelemetry\opentelemetry-context\1.10.1\opentelemetry-context-1.10.1.jar;C:\Users\razvan.frandes\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.10.1\opentelemetry-exporter-logging-1.10.1.jar;C:\Users\razvan.frandes\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.10.1-alpha\opentelemetry-sdk-metrics-1.10.1-alpha.jar;C:\Users\razvan.frandes\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.10.1-alpha\opentelemetry-sdk-logs-1.10.1-alpha.jar;C:\Users\razvan.frandes\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.10.1\opentelemetry-sdk-common-1.10.1.jar;C:\Users\razvan.frandes\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.10.1\opentelemetry-sdk-extension-autoconfigure-spi-1.10.1.jar;C:\Users\razvan.frandes\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.10.1-alpha\opentelemetry-sdk-extension-autoconfigure-1.10.1-alpha.jar;C:\Users\razvan.frandes\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.10.1\opentelemetry-sdk-trace-1.10.1.jar;C:\Users\razvan.frandes\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.10.1\opentelemetry-sdk-1.10.1.jar;C:\Users\razvan.frandes\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.10.1-alpha\opentelemetry-semconv-1.10.1-alpha.jar;C:\Users\razvan.frandes\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\razvan.frandes\.m2\repository\net\bytebuddy\byte-buddy\1.12.7\byte-buddy-1.12.7.jar;C:\Users\razvan.frandes\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\razvan.frandes\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\razvan.frandes\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\razvan.frandes\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\razvan.frandes\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\razvan.frandes\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\razvan.frandes\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\razvan.frandes\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\razvan.frandes\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\razvan.frandes\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\razvan.frandes\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\razvan.frandes\.m2\repository\org\seleniumhq\selenium\selenium-http\4.1.2\selenium-http-4.1.2.jar;C:\Users\razvan.frandes\.m2\repository\net\jodah\failsafe\2.4.4\failsafe-2.4.4.jar;C:\Users\razvan.frandes\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.1.2\selenium-safari-driver-4.1.2.jar;C:\Users\razvan.frandes\.m2\repository\org\seleniumhq\selenium\selenium-support\4.1.2\selenium-support-4.1.2.jar;C:\Users\razvan.frandes\.m2\repository\io\cucumber\cucumber-junit\7.2.3\cucumber-junit-7.2.3.jar;C:\Users\razvan.frandes\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\razvan.frandes\.m2\repository\io\cucumber\cucumber-core\7.2.3\cucumber-core-7.2.3.jar;C:\Users\razvan.frandes\.m2\repository\io\cucumber\cucumber-gherkin\7.2.3\cucumber-gherkin-7.2.3.jar;C:\Users\razvan.frandes\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.2.3\cucumber-gherkin-messages-7.2.3.jar;C:\Users\razvan.frandes\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\razvan.frandes\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\razvan.frandes\.m2\repository\io\cucumber\cucumber-expressions\15.0.1\cucumber-expressions-15.0.1.jar;C:\Users\razvan.frandes\.m2\repository\io\cucumber\datatable\7.2.3\datatable-7.2.3.jar;C:\Users\razvan.frandes\.m2\repository\io\cucumber\cucumber-plugin\7.2.3\cucumber-plugin-7.2.3.jar;C:\Users\razvan.frandes\.m2\repository\io\cucumber\docstring\7.2.3\docstring-7.2.3.jar;C:\Users\razvan.frandes\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\razvan.frandes\.m2\repository\io\cucumber\ci-environment\8.1.0\ci-environment-8.1.0.jar;C:\Users\razvan.frandes\.m2\repository\io\cucumber\cucumber-java\7.2.3\cucumber-java-7.2.3.jar;C:\Users\razvan.frandes\.m2\repository\org\hamcrest\hamcrest-all\1.3\hamcrest-all-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\RAZVAN~1.FRA\AppData\Local\Temp\2\surefire7055618181156763037\surefirebooter3199459116521866983.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\RAZVAN~1.FRA\AppData\Local\Temp\2\surefire235360810114795898\surefirebooter5269149479396406215.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_321\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_321\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -43,7 +43,7 @@
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_321\jre\lib\endorsed"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="Cp1252"/>
-    <property name="browser" value="chrome"/>
+    <property name="browser" value="firefox"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="localRepository" value="C:\Users\razvan.frandes\.m2\repository"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
@@ -62,14 +62,101 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="Signup Successfully" classname="Signup" time="12.006"/>
-  <testcase name="VMT-W--05 - Terms and Conditions" classname="Signup" time="9.137"/>
-  <testcase name="VMT-W--06- Sign In - Wrong Email #1" classname="Signup" time="7.654"/>
-  <testcase name="VMT-W--06- Sign In - Wrong Email #2" classname="Signup" time="7.313"/>
-  <testcase name="VMT-W--06- Sign In - Wrong Email #3" classname="Signup" time="7.921"/>
-  <testcase name="VMT-W--06- Sign In - Wrong Email #4" classname="Signup" time="7.36"/>
-  <testcase name="VMT-W--06- Sign In - Wrong Email #5" classname="Signup" time="7.531"/>
-  <testcase name="VMT-W--06- Sign In - Wrong Email #6" classname="Signup" time="8.001"/>
-  <testcase name="VMT-W--06- Sign In - Wrong Email #7" classname="Signup" time="7.968"/>
-  <testcase name="VMT-W--08 - Sign In - Forgot Password" classname="Signup" time="39.172"/>
+  <testcase name="VMT-W--01 - Landing page - right side - SignUp" classname="Signup" time="18.328"/>
+  <testcase name="VMT-W--05 - Terms and Conditions" classname="Signup" time="12.547"/>
+  <testcase name="VMT-W--06- Sign In - Wrong Email #1" classname="Signup" time="11.312"/>
+  <testcase name="VMT-W--06- Sign In - Wrong Email #2" classname="Signup" time="10.112"/>
+  <testcase name="VMT-W--06- Sign In - Wrong Email #3" classname="Signup" time="14.216"/>
+  <testcase name="VMT-W--06- Sign In - Wrong Email #4" classname="Signup" time="12.032"/>
+  <testcase name="VMT-W--06- Sign In - Wrong Email #5" classname="Signup" time="12.281"/>
+  <testcase name="VMT-W--06- Sign In - Wrong Email #6" classname="Signup" time="11.297"/>
+  <testcase name="VMT-W--06- Sign In - Wrong Email #7" classname="Signup" time="12.062"/>
+  <testcase name="VMT-W--08 - Sign In - Forgot Password &amp; VMT-W--09 - Sign In - Reset Password" classname="Signup" time="31.813">
+    <error message="Element &lt;tr id=&quot;:1t&quot; class=&quot;zA zE&quot;&gt; could not be scrolled into view&#10;Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;&#10;System info: host: &apos;WIN-P4TA5P5F8U0&apos;, ip: &apos;10.10.10.242&apos;, os.name: &apos;Windows Server 2012 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_321&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [bb5ef16e-72d0-4c4f-b216-ec8c63798544, clickElement {id=50581cef-3ca6-43d2-8ac8-01d763cb65bc}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220330194208, moz:debuggerAddress: localhost:51280, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 2304, moz:profile: C:\Users\RAZVAN~1.FRA\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, proxy: Proxy(), se:cdp: ws://localhost:51280/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Element: [[FirefoxDriver: firefox on WINDOWS (bb5ef16e-72d0-4c4f-b216-ec8c63798544)] -&gt; xpath: //tbody/tr[1][contains(@class, &apos;zA zE&apos;)]]&#10;Session ID: bb5ef16e-72d0-4c4f-b216-ec8c63798544" type="org.openqa.selenium.ElementNotInteractableException"><![CDATA[org.openqa.selenium.ElementNotInteractableException: 
+Element <tr id=":1t" class="zA zE"> could not be scrolled into view
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'WIN-P4TA5P5F8U0', ip: '10.10.10.242', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [bb5ef16e-72d0-4c4f-b216-ec8c63798544, clickElement {id=50581cef-3ca6-43d2-8ac8-01d763cb65bc}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220330194208, moz:debuggerAddress: localhost:51280, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 2304, moz:profile: C:\Users\RAZVAN~1.FRA\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, proxy: Proxy(), se:cdp: ws://localhost:51280/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (bb5ef16e-72d0-4c4f-b216-ec8c63798544)] -> xpath: //tbody/tr[1][contains(@class, 'zA zE')]]
+Session ID: bb5ef16e-72d0-4c4f-b216-ec8c63798544
+]]></error>
+    <system-err><![CDATA[1650445366620	geckodriver	INFO	Listening on 127.0.0.1:63820
+1650445367130	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51280" "-no-remote" "-profile" "C:\\Users\\RAZVAN~1.FRA\\AppData\\Local\\Temp\\2\\rust_mozprofilehx8QSz"
+1650445367605	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RAZVAN~1.FRA\\AppData\\Local\\Temp\\2\\rust_mozprofilehx8QSz\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51280/devtools/browser/ebaef394-e3b4-460e-85a7-fdd318b32c3b
+1650445370033	Marionette	INFO	Listening on port 57549
+1650445370375	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Apr 20, 2022 5:02:50 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://meet.voicemailtel.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://meet.voicemailtel.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://meet.voicemailtel.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://meet.voicemailtel.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://meet.voicemailtel.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://meet.voicemailtel.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://meet.voicemailtel.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&sacu=1&rip=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin line 1 > eval line 3780 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&sacu=1&rip=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin line 1 > eval line 3945 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://mail.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://www.google.com/js/bg/UUQTj9cPGsMVMqvEOxLdokHV79mACYo3jc0rpEwmHZs.js line 1 > eval line 3172 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1650445396414	Marionette	INFO	Stopped listening on port 57549
+[Parent 2304, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DestroyBrowsingContextGroup) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DestroyBrowsingContextGroup) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+]]></system-err>
+  </testcase>
+  <testcase name="VMT-W--10 - Sign In - Forgot Password - not valid mail" classname="Signup" time="14.547">
+    <failure message="Displayed error message is not the expected one&#10;Expected: is &quot;The email address you entered is not associated with an account. Please enter the e-mail address associated with your account or Sign up to create your account&quot;&#10;     but: was &quot;The e-mail address you entered is not associated with an account. Please enter the e-mail address associated with your account or Sign up to create your account.&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Displayed error message is not the expected one
+Expected: is "The email address you entered is not associated with an account. Please enter the e-mail address associated with your account or Sign up to create your account"
+     but: was "The e-mail address you entered is not associated with an account. Please enter the e-mail address associated with your account or Sign up to create your account."
+</failure>
+    <system-err><![CDATA[1650445398467	geckodriver	INFO	Listening on 127.0.0.1:62855
+1650445399044	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61167" "-no-remote" "-profile" "C:\\Users\\RAZVAN~1.FRA\\AppData\\Local\\Temp\\2\\rust_mozprofileXNvBJM"
+1650445399508	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RAZVAN~1.FRA\\AppData\\Local\\Temp\\2\\rust_mozprofileXNvBJM\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61167/devtools/browser/7f8820e7-e59d-4a2e-9017-4e3bb53041dc
+1650445401958	Marionette	INFO	Listening on port 57658
+1650445402331	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Apr 20, 2022 5:03:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://meet.voicemailtel.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://meet.voicemailtel.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://meet.voicemailtel.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://meet.voicemailtel.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://meet.voicemailtel.com"
+1650445411976	Marionette	INFO	Stopped listening on port 57658
+]]></system-err>
+  </testcase>
 </testsuite>

@@ -4,6 +4,7 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import org.VMT.TestBase;
 import org.VMT.webviews.EmailInboxPage;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WindowType;
 import org.openqa.selenium.support.PageFactory;
@@ -17,6 +18,8 @@ import static org.hamcrest.Matchers.containsString;
 public class EmailInboxSteps extends TestBase {
 
     private EmailInboxPage emailInboxPage = PageFactory.initElements(driver, EmailInboxPage.class);
+
+    JavascriptExecutor js = (JavascriptExecutor) driver;
 
     @Then("I go to my email")
     public void iGoToMyEmail() {
@@ -40,6 +43,8 @@ public class EmailInboxSteps extends TestBase {
 
     @Then("I click on the mail")
     public void iClickOnTheMail() {
+        js.executeScript("window.scrollBy(0,1000)");
+
         emailInboxPage.getMail().click();
     }
 

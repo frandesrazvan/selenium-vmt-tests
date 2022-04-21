@@ -1,6 +1,7 @@
 org\VMT\Hooks.class
 org\VMT\TestBase.class
 org\VMT\stepdefinitions\SignInPageSteps.class
+org\VMT\stepdefinitions\ConfirmMailSteps.class
 org\VMT\runners\SignupRunner.class
 org\VMT\stepdefinitions\LandingPageSteps.class
 org\VMT\stepdefinitions\EmailInboxSteps.class

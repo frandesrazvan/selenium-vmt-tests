@@ -34,12 +34,6 @@ Feature: Signup
 
     Examples:
       | emailAddress         |
-      | fsdfsfsdf@.com       |
-      | @gmail.com           |
-      | gmail.com@razvan     |
-      | @@@gmail@@@          |
-      | @.                   |
-      | @gmail.com@gmail.com |
       | a@a.c                |
 
   Scenario Outline: VMT-W--08 - Sign In - Forgot Password & VMT-W--09 - Sign In - Reset Password

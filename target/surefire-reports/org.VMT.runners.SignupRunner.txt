@@ -1,4 +1,21 @@
 -------------------------------------------------------------------------------
 Test set: org.VMT.runners.SignupRunner
 -------------------------------------------------------------------------------
-Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 115.218 s - in org.VMT.runners.SignupRunner
+Tests run: 11, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 161.765 s <<< FAILURE! - in org.VMT.runners.SignupRunner
+VMT-W--08 - Sign In - Forgot Password & VMT-W--09 - Sign In - Reset Password(Signup)  Time elapsed: 31.813 s  <<< ERROR!
+org.openqa.selenium.ElementNotInteractableException: 
+Element <tr id=":1t" class="zA zE"> could not be scrolled into view
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'WIN-P4TA5P5F8U0', ip: '10.10.10.242', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [bb5ef16e-72d0-4c4f-b216-ec8c63798544, clickElement {id=50581cef-3ca6-43d2-8ac8-01d763cb65bc}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220330194208, moz:debuggerAddress: localhost:51280, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 2304, moz:profile: C:\Users\RAZVAN~1.FRA\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, proxy: Proxy(), se:cdp: ws://localhost:51280/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (bb5ef16e-72d0-4c4f-b216-ec8c63798544)] -> xpath: //tbody/tr[1][contains(@class, 'zA zE')]]
+Session ID: bb5ef16e-72d0-4c4f-b216-ec8c63798544
+
+VMT-W--10 - Sign In - Forgot Password - not valid mail(Signup)  Time elapsed: 14.547 s  <<< FAILURE!
+java.lang.AssertionError: 
+Displayed error message is not the expected one
+Expected: is "The email address you entered is not associated with an account. Please enter the e-mail address associated with your account or Sign up to create your account"
+     but: was "The e-mail address you entered is not associated with an account. Please enter the e-mail address associated with your account or Sign up to create your account."
+
