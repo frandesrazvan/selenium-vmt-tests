@@ -12,7 +12,7 @@ public class EmailInboxPage {
     @FindBy(xpath = "//input[contains(@type, 'password')]")
     private WebElement password;
 
-    @FindBy(xpath = "//tbody/tr[1][contains(@class, 'zA zE')]")
+    @FindBy(xpath = "/html/body/div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div/div/div[6]/div[2]/div/table/tbody/tr[1]/td[5]/div/div/div")
     private WebElement mail;
 
     @FindBy(xpath = "//a[contains(text(), 'Reset password')]")
